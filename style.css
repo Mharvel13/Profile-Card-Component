@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+body{
+    background-image: url("images/bg-pattern-top.svg"), url("images/bg-pattern-bottom.svg");
+    background-position: -20vw -42vw, 45vw 27vw;
+    background-repeat: no-repeat;
+    background-color: hsl(185, 75%, 39%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw; 
+    height: 100vh; 
+    overflow: hidden;
+    font-family: 'Kumbh Sans', sans-serif;
+    
+}
+
+.profile-container{
+    display: flex; 
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+
+header{
+    width: 100%;
+    background-image:url("images/bg-pattern-card.svg");
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border-radius: 15px 15px 0 0;
+    padding: 10px 0;
+    
+}
+
+header img{
+    border: 5px solid white;
+    border-radius: 50%;
+    position: relative;
+    top: 58px;
+}
+
+.main-body{
+    background-color:white;
+    color:  hsl(229, 23%, 23%);
+    text-shadow: 0px 3px 3px 3px hsl(227, 10%, 46%);
+    padding-top: 30px;
+    width: 100%;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.profile-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.profile-text h1{
+    margin: 5px 0 10px 0;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+span{
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 100;
+    color: hsl(0, 0%, 59%);
+}
+
+
+p{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    color: hsl(0, 0%, 59%);
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+
+.profile-stats{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stat1, 
+.stat2,
+.stat3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin:20px;
+    padding: 10px;    
+}
+
+.stat1 p, 
+.stat2 p,
+.stat3 p{
+    align-self: center;
+    margin-top: 10px;
+    
+}
+
+.stat1 h2, 
+.stat2 h2,
+.stat3 h2{
+    align-self: center;
+    font-size: 18px;
+    margin: 0;
+    font-weight: 700;
+    
+}
